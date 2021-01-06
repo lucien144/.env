@@ -10,6 +10,7 @@ source ~/.zplug/init.zsh
 ###############
 # PATHS
 ###############
+mkdir -p $HOME/bin
 export PATH=$HOME/bin:/usr/local/bin$PATH:/Applications/SDKs/flutter/bin:~/.npm-global/bin:$HOME/.composer/vendor/bin
 export ZSH="~/.oh-my-zsh"
 
